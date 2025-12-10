@@ -40,7 +40,7 @@ Place PDFs in `Code/data/`. On startup they are loaded and embedded (FAISS). Cur
 ## Notebook
 Run the analysis notebook if needed:
 ```bash
-cd "/Users/jenvithmanduva/GDS_Agentic RAG"
+# from the project root
 source .venv/bin/activate
 jupyter notebook Code/Sales.ipynb
 # or headless execution:
@@ -49,4 +49,4 @@ jupyter nbconvert --to notebook --execute Code/Sales.ipynb --output Code/Sales-r
 
 ## Notes
 - If running offline initially, `tiktoken` may try to download tokenizer files; run once with internet to cache them.
-- Keep your real `OPENAI_API_KEY` in an environment variable rather than hard-coding.***
+- Keep your real `OPENAI_API_KEY` in an environment variable rather than hard-coding.
