@@ -4,7 +4,7 @@ Streamlit app that lets you ask business questions by voice or text. It loads th
 
 ## Quick start
 ```bash
-cd "/Users/jenvithmanduva/GDS_Agentic RAG"
+# from the project root (this folder)
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r Code/requirements.txt
